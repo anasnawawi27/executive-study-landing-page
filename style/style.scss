@@ -35,6 +35,7 @@ header{
     }
     p{
         color: #7D7D7D;
+        font-size: 20px;
     }
     
     .btn-primary-apply{
@@ -49,6 +50,7 @@ header{
         img{
             height: 565px;
             position: absolute;
+            right: 0px;
         }
         .circle{
             position: absolute;
@@ -58,7 +60,42 @@ header{
             opacity: 0.75;
             border-radius: 200%;
             margin-top: 100px;
+            left: 130px;
+            top: 30px;
         }
     }
 
+}
+
+.university{
+    background-color: #FAFAFA;
+    p{
+        font-size: 26px;
+        color: #828282;
+    }
+
+    .owl-nav{
+        display: none;
+    }
+
+    .owl-carousel{
+        .item{
+            margin-right: 50px;
+        }
+    }
+
+    .owl-dots{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        line-height: 30.33px;
+        .active{
+            span{
+                margin-top: 10px!important;
+                background-color: #717CFF!important;
+                height: 13px!important;
+                width: 13px!important;
+                border-radius: 100px!important;
+            }
+        }
+    }
 }

@@ -32,6 +32,7 @@ header h1 {
 
 header p {
   color: #7D7D7D;
+  font-size: 20px;
 }
 
 header .btn-primary-apply {
@@ -48,6 +49,7 @@ header .container {
 header .container img {
   height: 565px;
   position: absolute;
+  right: 0px;
 }
 
 header .container .circle {
@@ -58,5 +60,38 @@ header .container .circle {
   opacity: 0.75;
   border-radius: 200%;
   margin-top: 100px;
+  left: 130px;
+  top: 30px;
+}
+
+.university {
+  background-color: #FAFAFA;
+}
+
+.university p {
+  font-size: 26px;
+  color: #828282;
+}
+
+.university .owl-nav {
+  display: none;
+}
+
+.university .owl-carousel .item {
+  margin-right: 50px;
+}
+
+.university .owl-dots {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  line-height: 30.33px;
+}
+
+.university .owl-dots .active span {
+  margin-top: 10px !important;
+  background-color: #717CFF !important;
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 100px !important;
 }
 /*# sourceMappingURL=style.css.map */
