@@ -146,3 +146,44 @@ header{
         }
     }
 }
+
+.news{
+    background-color: #FAFAFA;
+    .news-title{
+        margin-top: 100px;
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .news-description{
+        margin-bottom: 70px;
+        font-size: 22px;
+        color:#7D7D7D;
+    }
+
+    .card-news{
+        box-shadow: 0px 4px 70px 0px rgba(151, 151, 151, 0.25);
+        border-radius: 15px;
+        height: 406px;
+        .news-date{
+            font-size: 16px;
+            font-weight: 600;
+            color: #565656;
+        }
+
+        .news-headline{
+            font-size: 22px;
+            font-weight: bold;
+            color: #252525;
+        }
+    }
+
+    .btn-join-here{
+        margin-top: 70px;
+        background-color: #717CFF;
+        color: #ffff;
+        border-radius: 8px;
+        margin-bottom: 70px; 
+    }
+}
+
