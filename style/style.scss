@@ -115,7 +115,7 @@ header{
 
     .card{
         .card-body{
-            box-shadow: 0px 4px 70px 0px rgba(182, 182, 182, 0.25);
+            box-shadow: 0px 4px 60px 0px rgba(201, 201, 201, 0.25);
             border-radius: 15px;
             padding:35px;
             .icon-service{
@@ -184,6 +184,128 @@ header{
         color: #ffff;
         border-radius: 8px;
         margin-bottom: 70px; 
+    }
+}
+
+.upcoming-events{
+
+    .upcoming-title{
+        margin-top: 100px;
+        font-size: 37px;
+        font-weight: bold;
+    }
+    
+    .upcoming-event-description{
+        margin-bottom: 70px;
+        font-size: 22px;
+        color:#7D7D7D;
+    }
+
+    .card-upcoming-events{
+        padding:10px;
+        border-radius: 15px;
+        .card-body{
+            .events-date{
+                height: 76px;
+                width: 76px;
+                background-color: #ECEDFF;
+                border-radius: 11px;
+
+                .date{
+                    font-size: 27px;
+                    font-weight: bold;
+                    color: #717CFF;
+                }
+
+                p{
+                    font-weight: 700;
+                    line-height: 15px;
+                    color:#717CFF;
+                    font-size: 18px;
+                }
+            }
+
+            .card-events-title{
+                font-size: 20px;
+                font-weight: bold;
+            }
+
+            .card-event-content{
+                margin-top: 30px;
+                color:#9BA3A7;
+            }
+        }
+    }
+
+    .owl-carousel{
+        .owl-nav{
+            display: none;
+        }
+    }
+
+    .owl-dots{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        line-height: 30.33px;
+        .active{
+            span{
+                margin-top: 10px!important;
+                background-color: #717CFF!important;
+                height: 13px!important;
+                width: 13px!important;
+                border-radius: 100px!important;
+            }
+        }
+    }
+}
+
+.countries-covered{
+    background-color: #FAFAFA;
+    .countries-covered-title{
+        margin-top: 100px;
+        font-size: 37px;
+        font-weight: bold;
+    }
+
+    .countries-covered-description{
+        margin-bottom: 70px;
+        font-size: 22px;
+        color:#7D7D7D;
+    }
+
+    .card-country{
+        background-color: transparent;
+        .card-img-top{
+            border-radius: 29px!important;
+        }
+
+        .card-title{
+            font-size: 25px;
+            font-weight:600;
+            color: #37474F;
+        }
+
+        .card-text{
+            font-size: 16px;
+            font-weight: 500;
+            color: #6D797F;
+        }
+
+    }
+
+    .owl-dots{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        line-height: 30.33px;
+        .active{
+            span{
+                margin-top: 10px!important;
+                background-color: #717CFF!important;
+                height: 13px!important;
+                width: 13px!important;
+                border-radius: 100px!important;
+            }
+        }
     }
 }
 

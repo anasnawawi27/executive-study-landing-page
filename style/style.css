@@ -108,8 +108,8 @@ header .container .circle {
 }
 
 .our-service .card .card-body {
-  -webkit-box-shadow: 0px 4px 70px 0px rgba(182, 182, 182, 0.25);
-          box-shadow: 0px 4px 70px 0px rgba(182, 182, 182, 0.25);
+  -webkit-box-shadow: 0px 4px 60px 0px rgba(201, 201, 201, 0.25);
+          box-shadow: 0px 4px 60px 0px rgba(201, 201, 201, 0.25);
   border-radius: 15px;
   padding: 35px;
 }
@@ -179,5 +179,120 @@ header .container .circle {
   color: #ffff;
   border-radius: 8px;
   margin-bottom: 70px;
+}
+
+.upcoming-events .upcoming-title {
+  margin-top: 100px;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.upcoming-events .upcoming-event-description {
+  margin-bottom: 70px;
+  font-size: 22px;
+  color: #7D7D7D;
+}
+
+.upcoming-events .card-upcoming-events {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.upcoming-events .card-upcoming-events .card-body .events-date {
+  height: 76px;
+  width: 76px;
+  background-color: #ECEDFF;
+  border-radius: 11px;
+}
+
+.upcoming-events .card-upcoming-events .card-body .events-date .date {
+  font-size: 27px;
+  font-weight: bold;
+  color: #717CFF;
+}
+
+.upcoming-events .card-upcoming-events .card-body .events-date p {
+  font-weight: 700;
+  line-height: 15px;
+  color: #717CFF;
+  font-size: 18px;
+}
+
+.upcoming-events .card-upcoming-events .card-body .card-events-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upcoming-events .card-upcoming-events .card-body .card-event-content {
+  margin-top: 30px;
+  color: #9BA3A7;
+}
+
+.upcoming-events .owl-carousel .owl-nav {
+  display: none;
+}
+
+.upcoming-events .owl-dots {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  line-height: 30.33px;
+}
+
+.upcoming-events .owl-dots .active span {
+  margin-top: 10px !important;
+  background-color: #717CFF !important;
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 100px !important;
+}
+
+.countries-covered {
+  background-color: #FAFAFA;
+}
+
+.countries-covered .countries-covered-title {
+  margin-top: 100px;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.countries-covered .countries-covered-description {
+  margin-bottom: 70px;
+  font-size: 22px;
+  color: #7D7D7D;
+}
+
+.countries-covered .card-country {
+  background-color: transparent;
+}
+
+.countries-covered .card-country .card-img-top {
+  border-radius: 29px !important;
+}
+
+.countries-covered .card-country .card-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #37474F;
+}
+
+.countries-covered .card-country .card-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #6D797F;
+}
+
+.countries-covered .owl-dots {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  line-height: 30.33px;
+}
+
+.countries-covered .owl-dots .active span {
+  margin-top: 10px !important;
+  background-color: #717CFF !important;
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 100px !important;
 }
 /*# sourceMappingURL=style.css.map */
