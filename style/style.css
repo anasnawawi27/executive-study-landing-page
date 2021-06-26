@@ -295,4 +295,69 @@ header .container .circle {
   width: 13px !important;
   border-radius: 100px !important;
 }
+
+.testimonials .testimonials-title {
+  margin-top: 100px;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.testimonials .testimonials-description {
+  margin-bottom: 70px;
+  font-size: 22px;
+  color: #7D7D7D;
+}
+
+.testimonials .card-testimonials .testimonial-profil .testimonial-foto {
+  margin-right: 20px;
+}
+
+.testimonials .card-testimonials .testimonial-profil .testimonial-foto img {
+  border-radius: 12px;
+}
+
+.testimonials .card-testimonials .testimonial-profil .testimonial-name {
+  padding-top: 5px;
+}
+
+.testimonials .card-testimonials .testimonial-profil .testimonial-name p {
+  font-size: 22px;
+  color: #37474F;
+  font-weight: 600;
+}
+
+.testimonials .card-testimonials .testimonial-profil .testimonial-name span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7D888D;
+}
+
+.testimonials .card-testimonials .card-body {
+  background-color: transparent;
+}
+
+.testimonials .card-testimonials .card-body .card-text {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7D888D;
+}
+
+.testimonials .owl-nav {
+  display: none;
+}
+
+.testimonials .owl-dots {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  line-height: 30.33px;
+}
+
+.testimonials .owl-dots .active span {
+  margin-top: 10px !important;
+  background-color: #717CFF !important;
+  height: 13px !important;
+  width: 13px !important;
+  border-radius: 100px !important;
+}
 /*# sourceMappingURL=style.css.map */
