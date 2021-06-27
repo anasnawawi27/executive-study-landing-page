@@ -377,3 +377,40 @@ header{
     }
 }
 
+.ready-to-chase{
+    background-color: #FAFAFA;;
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        color: #252525;
+        margin-bottom: 30px;
+    }
+
+    .btn-ready{
+        padding-top: 70px;
+        .btn-primary-apply{
+            background-color: #717CFF;
+            color: #ffff;
+            border-radius: 8px;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+.footer{
+    background-color: #717CFF;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 200;
+    ul{
+        li{
+            a{
+                color: #ffff;
+            }
+        }
+    }
+    .sosial-media{
+        position: relative;
+        bottom: -185px;
+    }
+}

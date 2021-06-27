@@ -360,4 +360,42 @@ header .container .circle {
   width: 13px !important;
   border-radius: 100px !important;
 }
+
+.ready-to-chase {
+  background-color: #FAFAFA;
+}
+
+.ready-to-chase p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #252525;
+  margin-bottom: 30px;
+}
+
+.ready-to-chase .btn-ready {
+  padding-top: 70px;
+}
+
+.ready-to-chase .btn-ready .btn-primary-apply {
+  background-color: #717CFF;
+  color: #ffff;
+  border-radius: 8px;
+  margin-bottom: 70px;
+}
+
+.footer {
+  background-color: #717CFF;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.footer ul li a {
+  color: #ffff;
+}
+
+.footer .sosial-media {
+  position: relative;
+  bottom: -185px;
+}
 /*# sourceMappingURL=style.css.map */
